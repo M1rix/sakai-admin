@@ -1,0 +1,38 @@
+.x-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 290px;
+  top: 10px;
+  width: calc(100vw - 320px);
+  height: 58px;
+  border-radius: 6px;
+  background: var(--surface-card);
+}
+
+.x-menu {
+  position: fixed;
+  width: 250px;
+  height: calc(100vh - 20px);
+  left: 10px;
+  top: 10px;
+  border-radius: 6px;
+  background: var(--surface-card);
+}
+
+.x-content {
+  width: calc(100vw - 350px);
+  height: calc(100vh - 100px);
+  margin-left: 310px;
+  margin-top: 100px;
+}
+
+.x-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  padding-block: 1rem;
+  border-top: 2px solid var(--surface-ground);
+}

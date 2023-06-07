@@ -1,0 +1,12 @@
+p-breadcrumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+
+  .p-breadcrumb {
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+  }
+}
